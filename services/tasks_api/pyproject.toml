@@ -21,6 +21,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.dependencies]
 fastapi = "^0.115.11"
+httpx = "^0.28.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
